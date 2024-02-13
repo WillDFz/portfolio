@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '_colors.scss';
+
+body {
+    background: #000
+}
+
+.text-primary {
+    color: $french-rose !important;
+}
+
+.text-secondary {
+    color: $tiffany-blue !important;
+}
+
+.border-primary {
+    border-color: $french-rose !important;
+}
+

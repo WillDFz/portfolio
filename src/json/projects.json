@@ -1,0 +1,69 @@
+[
+    {
+        "id": 0,
+        "name": "Loja (NextJS + Typescript + Tailwind)",
+        "url": "https://shadcn-tsc-store.vercel.app",
+        "github": "https://github.com/WillDFz/store-tsc",
+        "description": "Loja com login e carrinho funcional desenvolvida para estudos de Nextauth e Shadcn.",
+        "tools": "NextJS, Typescript, Tailwind, Shadcn, Nextauth"
+    },
+    {
+        "id": 1,
+        "name": "Loja (NextJS + Typescript + Bootstrap 5)",
+        "url": "https://typescript-store-taupe.vercel.app",
+        "github": "https://github.com/WillDFz/shadcn-tsc-store",
+        "description": "Loja com carrinho funcional desenvolvida para estudos das tecnologias NextJS e Typescript.",
+        "tools": "NextJS, Typescript, SASS, Bootstrap 5"
+    },
+    {
+        "id": 2,
+        "name": "Dashboard (NextJS + Bootstrap 5)",
+        "url": "https://advice-h-dashboard.vercel.app/",
+        "github": "https://github.com/WillDFz/adviceH-dashboard",
+        "description": "Dashboard administrativo desenvolvido como teste para a empresa Advice-H.",
+        "tools": "NextJS, SASS, Bootstrap 5"
+    },
+    {
+        "id": 3,
+        "name": "E-commerce (NextJS + Tailwind CSS)",
+        "url": "https://ecommerce-react-tailwind.vercel.app/",
+        "github": "https://github.com/WillDFz/ecommerce-react-tailwind",
+        "description": "Loja de criada para estudos das tecnologias React JS e Tailwind CSS.",
+        "tools": "NextJS, SASS, Tailwind CSS, SwiperJS"
+    },
+    {
+        "id": 4,
+        "name": "Andréia Carvalho Decoração",
+        "url": "https://andreiacarvalhodecor.com.br/",
+        "description": "Loja de artigos no segmento de casa e decoração.",
+        "tools": "Bootstrap 4 JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
+    },
+    {
+        "id": 5,
+        "name": "Diamante Lapidado",
+        "url": "https://www.diamantelapidado.com.br/",
+        "description": "Loja de artigos no segmento de jóias.",
+        "tools": "Bootstrap 4 JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
+    },
+    {
+        "id": 6,
+        "name": "Emporio do Cilios",
+        "url": "https://www.emporiodoscilios.com.br/",
+        "description": "Loja de artigos no seguimento de extensão de cílios.",
+        "tools": "Bootstrap 4 JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
+    },
+    {
+        "id": 4,
+        "name": "Rennova",
+        "url": "https://compre.rennova.me/",
+        "description": "Loja de artigos no segmento de saúde/beleza.",
+        "tools": "JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
+    },
+    {
+        "id": 8,
+        "name": "Rennova Beauté",
+        "url": "https://www.rennovabeaute.com/",
+        "description": "Loja de artigos no segmento de saúde/beleza.",
+        "tools": "JavaScript, Jquery, Twig, Symfony, Smarty, Nuvemshop Platform"
+    }
+]
