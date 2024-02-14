@@ -5,18 +5,33 @@
 @import '_colors.scss';
 
 body {
-    background: #000
+    background-color: #000;
+    background-image: url('/images/bg.png');
 }
-
 .text-primary {
-    color: $french-rose !important;
+    color: $ice-blue !important;
 }
 
 .text-secondary {
-    color: $tiffany-blue !important;
+    color: $rose;
+}
+
+.text-gradient {
+    background: $gradient-left;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .border-primary {
-    border-color: $french-rose !important;
+    border-color: $ice-blue !important;
+}
+.border-secondary {
+    border-color: $rose;
 }
 
+.bg-primary {
+    background-color: $ice-blue !important;
+}
+.bg-secondary {
+    background-color: $rose !important;
+}
