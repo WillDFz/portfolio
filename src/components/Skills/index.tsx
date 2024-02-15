@@ -15,11 +15,12 @@ interface Skill {
 
 const Skills = () => {
     return (
-        <div className='p-3'>
+        <section id='Skills' className='p-3'>
             <h3 className='text-gradient text-2xl text-center font-bold mb-5'>Ferramentas</h3>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={3.75}
+                className='lg:hidden'
             >
                 {Skill.map((skill, index) => (
                     <SwiperSlide key={index} className='flex'>
@@ -32,7 +33,19 @@ const Skills = () => {
                     </SwiperSlide>
                 ))}
             </Swiper>
-        </div>
+            <div>
+                <div className='hidden lg:flex justify-center'>
+                    {Skill.map((skill, index) => (
+                        <div key={index} className='flex flex-col items-center justify-center me-10'>
+                            <div className='flex h-10'>
+                                <Image src={skill.image} width={36} height={36} className='mb-1' alt='' />
+                            </div>
+                            <div className='text-white text-sm '>{skill.name}</div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
     )
 }
 

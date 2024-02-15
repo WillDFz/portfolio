@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const Footer = () => {
   return (
-    <div className='border-t border-primary bg-black p-3'>
+    <div className='border-t border-primary bg-black pt-1'>
       <div className='w-full text-white text-center p-3'>
         <div className='w-full flex justify-center mb-4'>
           <Link href="https://www.linkedin.com/in/william-dourado-143527170/" target="_blank" rel="noopener noreferrer">

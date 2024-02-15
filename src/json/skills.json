@@ -9,7 +9,6 @@
         "name": "NextJS",
         "image": "/svg/next.svg"
     },
-    
     {
         "id": "3",
         "name": "Javascript",
@@ -42,7 +41,7 @@
     },
     {
         "id": "9",
-        "name": "Github",
+        "name": "Git",
         "image": "/svg/github_r.svg"
     }
     

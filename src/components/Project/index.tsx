@@ -7,12 +7,11 @@ import Link from 'next/link';
 
 const Projects = () => {
     return (
-        <div>
+        <section id='Projects'>
             <h3 className='text-gradient text-2xl text-center bg-black font-bold my-4'>Projetos</h3>
-            <div className='p-3'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-4 gap-4  p-3'>
                 {JsonProjects.map((project) => (
                     <div key={project.id} className='flex flex-col items-center justify-center bg-black border border-primary rounded mb-5 p-4'>
-
                         <div className='text-primary text-center mb-2'>
                             {project.name}
                         </div>
@@ -37,7 +36,7 @@ const Projects = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
 
