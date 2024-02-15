@@ -38,7 +38,7 @@ const Skills = () => {
                     {Skill.map((skill, index) => (
                         <div key={index} className='flex flex-col items-center justify-center me-10'>
                             <div className='flex h-10'>
-                                <Image src={skill.image} width={36} height={36} className='mb-1' alt='' />
+                                <Image src={skill.image} width={64} height={64} className='mb-1' alt='' />
                             </div>
                             <div className='text-white text-sm '>{skill.name}</div>
                         </div>

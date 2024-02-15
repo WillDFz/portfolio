@@ -10,7 +10,7 @@ const MainBanner = () => {
                     <Link href="#Projects" className='bg-secondary opacity-90 hover:opacity-100 rounded font-semibold text-sm mb-2 py-1 px-3'>Projetos</Link>
                     <Link href="#Skills" className='bg-secondary opacity-90 hover:opacity-100 rounded font-semibold text-sm py-1 px-3'>Tecnologias</Link>
                 </div>
-                <img src='/images/avatar.png' className='w-44 h-44 border-4 border-primary rounded-md' alt='' />
+                <img src='/images/avatar.png' className='w-44 h-44 lg:w-64 lg:h-64 border-4 border-primary rounded-md' alt='' />
             </div>
             <div className='text-white m-auto'>
                 <h3 className='text-center'>Will Dourado</h3>
