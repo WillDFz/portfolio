@@ -48,7 +48,7 @@ const Modal: React.FC<ModalProps> = ({ url, responsive, setOpenModal }) => {
                             {activeTab === 'desktop' && (
                                 <Iframe
                                     url={url}
-                                    width="1280px"
+                                    width="1300px"
                                     height="90%"
                                     className='border-2 border-secondary rounded p-2'
                                 />
